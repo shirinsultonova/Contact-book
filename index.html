@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact book</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="contact-main-box my-5">
+            <!-- <div class="contact-title-bo py-4 text-bg-dark">
+                <h2 class="contact-title text-center">Contact book</h2>
+            </div> -->
+            <div class="contact-form-main-box">
+                <h3 class="contact-form-title">Contact details:</h3>
+                <form class="contact-form">
+                    <label class="contact-label">
+                        Name
+                        <input class="contact-input contact-name-input" type="text"
+                            aria-label="Enter your contact's name">
+                    </label>
+                    <label class="contact-label">
+                        Relationship
+                        <input class="contact-input contact-relationship-input" type="text"
+                            aria-label="Enter your contact's job">
+                    </label>
+                    <label class="contact-label">
+                        Contact Number
+                        <input class="contact-input contact-tel-input" type="number"
+                            aria-label="Enter your contact's address" placeholder="Tel:+" value="+">
+                    </label>
+                    <div class="success-box">
+                        <p class="success-box-text">Contact saved successfully!</p>
+                    </div>
+                    <div class="empty-box">
+                        <p class="empty-box-text">Fill all input for saving!</p>
+                    </div>
+                    <div class="same-number-box">
+                        <p class="same-number-text"> You typed the same number</p>
+                    </div>
+                    <div class="contact-btn-box">
+                        <button class="contact-form-btn contact-send-btn" type="submit">+ Add Contact</button>
+                        <button class="contact-form-btn contact-delete-btn" type="reset"> Cancel</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-result-box">
+                <div class="contact-result-top-box">
+                    <p class="contact-item-counter"></p>
+                    <h3 class="contact-form-result-title">Available Contact:</h3>
+                    <button class="contact-reset-btn" type="button">Reset</button>
+                </div>
+                <ul class="contact-result-list"></ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
